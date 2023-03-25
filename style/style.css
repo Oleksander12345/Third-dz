@@ -1,0 +1,122 @@
+table,
+th,
+td {
+    border: 1px solid grey;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+caption {
+    font-size: 20px;
+    color: blue;
+}
+.menu {
+    border: 20px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    font-size: 30px;
+    padding: 45px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+.a1 {
+    margin-left: 37%;
+}
+.a2 {
+margin-left: 20px;
+margin-right: 20px ;
+}
+
+.main-menu {
+    margin-top: 200px;
+}
+.header-menu {
+    background-color: chartreuse;
+        height: 100px;
+}
+.footer-menu {
+    margin-top: 300px;
+
+    background-color: chartreuse;
+    height: 100px;
+    padding-bottom: 50px;
+}
+address {
+        margin-left: 150px;
+        padding-top: 10px;
+        font-size: 20px;
+        color: #fff;
+}
+address  a {
+    color: grey;
+}
+tr:hover {
+    color: aquamarine;
+    background-color: darkgrey;
+    font-family: fantasy;
+    font-size: larger;
+}
+i:hover {
+ color: rgb(173, 163, 11);
+ font-size: larger;
+ font-family: serif;
+}
+.sidebar1 {
+ display: flex;   
+}
+aside {
+    width: 700px;
+    margin-left: 150px;
+}
+#table {
+    width: 900px;
+}
+.aud1 {
+    margin-left: 850px;
+}
+.vid1 {
+    margin-left: 650px;
+}
+h2 {
+    text-decoration: underline black;
+    text-shadow: #3d3c3c;
+}
+.h1-dz3 {
+    text-transform: capitalize;
+}
+.under-h1 {
+line-height: 20px;
+}
+.food {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food>p {
+    width: 600px;
+}
+.dz3-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+::selection {
+color: aquamarine;
+}
+p {
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+.food-img {
+    padding-left: 30px;
+}
