@@ -29,13 +29,15 @@ h1 {
     margin-top: 70px;
 }
 .a1 {
-    margin-left: 37%;
+    margin-left: 33%;
 }
 .a2 {
 margin-left: 20px;
 margin-right: 20px ;
 }
-
+.a3 {
+    margin-right: 20px;
+}
 .main-menu {
     margin-top: 200px;
 }
@@ -88,7 +90,7 @@ aside {
 }
 h2 {
     text-decoration: underline black;
-    text-shadow: #3d3c3c;
+    text-shadow: 5px 5px 5px #888787;
 }
 .h1-dz3 {
     text-transform: capitalize;
@@ -101,8 +103,10 @@ line-height: 20px;
     margin-left: auto;
     margin-right: auto;
 }
-.food>p {
-    width: 600px;
+.food > div > p {
+    font-style: oblique;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
 }
 .dz3-main {
     margin-left: auto;
@@ -112,11 +116,68 @@ line-height: 20px;
 ::selection {
 color: aquamarine;
 }
-p {
-    font-style: oblique;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: larger;
-}
 .food-img {
     padding-left: 30px;
+}
+.register > fieldset > label {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+.register {
+    padding-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 34%;
+    margin-bottom: 50px;
+}
+.register > button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.dz4-a1 {
+    border: 10px;
+        border-radius: 5px;
+        background-color: rgb(128, 228, 228);
+        font-size: 25px;
+        padding: 10px;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 40%;
+        margin-top: 30px;
+}
+.dz4-fieldset {
+    width: 700px;
+    margin-left: 30%;
+}
+.dz4-p {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+}
+.second-button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-a1 {
+    border: 20px;
+    border-radius: 10px;
+    background-color: rgb(129, 218, 213);
+    font-size: 30px;
+    padding: 25px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dz4-a {
+margin-top: 250px;
 }

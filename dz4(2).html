@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1 style="text-align: center;">Невеличке опитування</h1>
+    <form>
+    <fieldset class="dz4-fieldset">
+        <div>
+        <label>
+        <span class="dz4-p">Виберіть ваш улюблений колір</span>
+
+        <select name="color">
+            <option value="c9" disabled="disabled" selected="selected">Виберіть ваш улюблений колір</option>
+            <option value="c1">Зелений</option>
+            <option value="c2">Червоний</option>
+            <option value="c3">жовтий</option>
+            <option value="c4">Синій</option>
+            <option value="c5">Фіолетовий</option>
+            <option value="c6">Помаранчевий</option>
+            <option value="c7">Блакитний</option>
+            <option value="c8">Чорний</option>
+            <option value="c9">Білий</option>
+        </select>
+        </label>
+        <br>
+        <p class="dz4-p">Тип темпераменту</p>
+        <label> Меланхолік
+            <input type="checkbox" value="character" name="temperach">
+        </label>
+        <label> Сангвінік
+            <input type="checkbox" value="character" name="temperach">
+        </label>
+        <label> Флегматик
+            <input type="checkbox" value="character" name="temperach">
+        </label>
+        <label> Холерик
+            <input type="checkbox" value="character" name="temperach">
+        </label>
+        <br>
+        <br>
+        <p class="dz4-p">Як часто ви займаєтесь спортом?</p>
+        <label>
+            щоденно
+            <input type="radio" name="quest">
+        </label>
+        <label>
+            кілька разів на тиждень
+            <input type="radio" name="quest">
+        </label>
+        <label>
+            раз на тиждень
+            <input type="radio" name="quest">
+        </label>
+        <label>
+            рідко
+            <input type="radio" name="quest">
+        </label>
+        <label>
+            ніколи
+            <input type="radio" name="quest">
+        </label>
+        <br>
+        <label>
+            <span class="dz4-p">Як ви оцінюєте свій рівень щастя на 5-бальній шкалі?</span>
+            <select name="happines">
+                <optgroup value="t5" disabled="disabled" selected="selected">Як ви оцінюєте свій рівень щастя на 5-бальній шкалі?</optgroup>
+                <option value="t1">1 - Дуже нещасливий/нещаслива</option>
+                <option value="t2">2 - Трохи нещасливий/нещаслива</option>
+                <option value="t3">3 - Середньо</option>
+                <option value="t4">4 - Трохи щасливий/щаслива</option>
+                <option value="t5">5 - Дуже щасливий/щаслива</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            <span class="dz4-p">Вкажіть наскільки ви сумні?</span>
+            <input type="range" name="dz4-range" min="0" max="100" value="0">
+        </label>
+        <br>
+        <label for="dz4-textareas">
+            <span class="dz4-p">Напишіть трошки про себе</span>
+        </label>
+        <br>
+        <br>
+        <textarea name="our-selfs" id="dz4-textareas" cols="50" rows="10"></textarea>
+        <button type="submit" class="second-button">Submit</button>
+        </div>
+    </fieldset>
+    </form>
+    </main>
+</body>
+</html>
