@@ -15,64 +15,67 @@
 <body class="body-dz5">
     <main>
     <div class="container">
-        <form>
-            <fieldset style="width: 650px;">
+        <form style="width: 100%;">
             <h1 style="text-align: inherit;">Registration</h1>
             <hr class="hr-dz5">
-            <div style="display: flex;">
+            <div>
+            <div style="display: flex;  margin-left: 30px; font-size: larger;">
             <div class="section-1">
-            <label class="dz5-input">Full Name
-                <input type="text" placeholder="Enter your name">
+            <label class="dz5-input"><span class="label-dz5">Full Name</span>
+                <input type="text" placeholder="Enter your name" style="padding: 2px 20px; width: 75%; font-size: 17px;">
             </label>
             <br>
             <br>
-            <label class="dz5-input">Email
-                <input type="email" placeholder="Enter your email">
+            <label class="dz5-input"><span class="label-dz5">Email</span>
+                <input type="email" placeholder="Enter your email" style="padding: 2px 20px; width: 75%; font-size: 17px;">
             </label>
             <br>
             <br>
-            <label class="dz5-input">Password
-                <input type="password" placeholder="Enter your password">
+            <label class="dz5-input"><span class="label-dz5">Password</span>
+                <input type="password" placeholder="Enter your password" style="padding: 2px 20px; width: 75%; font-size: 17px;">
             </label>
-            <br>
-            <br>
             </div>
             <div class="section-2">
-            <label class="dz5-input">Username
-                <input type="text" placeholder="Enter your username">
+            <label class="dz5-input"><span class="label-dz5">Username</span>
+                <input type="text" placeholder="Enter your username" style="padding: 2px 20px; width: 75%; font-size: 17px;">
             </label>
             <br>
             <br>
-            <label class="dz5-input">Phone Number
-                <input type="tel" placeholder="Enter your number">
+            <label class="dz5-input"><span class="label-dz5">Phone Number</span>
+                <input type="tel" placeholder="Enter your number" style="padding: 2px 20px; width: 75%; font-size: 17px;">
             </label>
             <br>
             <br>
-            <label class="dz5-input">Confirm Password
-                <input type="password" placeholder="Confirm your password">
+            <label class="dz5-input"><span class="label-dz5">Confirm Password</span>
+                <input type="password" placeholder="Confirm your password" style="padding: 2px 20px; width: 75%; font-size: 17px;">
             </label>
             </div>
             </div>
             <div>
-            <h2>Gender</h2>
-            <div style="display: flex;">
+            <h2 style="margin-left: 30px;">Gender</h2>
+            <div class="gender-container">
+            <div class="gender-label">
             <label>
-                <input type="radio">
+                <input type="radio" name="gander">
                 Male
             </label>
+            </div>
+            <div class="gender-label">
             <label>
-                <input type="radio">
+                <input type="radio" name="gander">
                 Female
             </label>
-            <label>
-                <input type="radio">
+            </div>
+            <div class="gender-label"><label>
+                <input type="radio" name="gander">
                 Prefer not to say
             </label>
             </div>
+            </div>
             </div> 
-           <button type="submit" class="button-dz5"><span>Register</span></button>
-            </fieldset>
+           <button type="submit" class="button-dz5"><span style="color: #fff;">Register</span></button>
         </form>
+    </div>
     </div>
     </main>
 </body>
