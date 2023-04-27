@@ -27,6 +27,7 @@ caption {
     color: #fff;
     margin-left: auto;
     margin-right: auto;
+
 }
 h1 {
     text-align: center;
@@ -37,7 +38,7 @@ h1 {
 }
 .a2 {
 margin-left: 20px;
-margin-right: 20px ;
+margin-right: 20px;
 }
 .a3 {
     margin-right: 20px;
@@ -285,4 +286,19 @@ label {
     border: 2px solid #fff;
     border-radius: 5px;
     clear: both;
+}
+ #inp-1:checked ~.gender-container-dz6 label .gender-label-ins,
+ #inp-2:checked ~.gender-container-dz6 label .gender-label-ins,
+ #inp-3:checked ~.gender-container-dz6 label .gender-label-ins {
+     background: #9b59b6;
+     border-color: #d9d9d9;
+     border-radius: 50%;
+ }
+form input[type="radio"] {
+    display: none;
+}
+.gender-label-ins[type="radio"] {
+        background: #9b59b6;
+        border-color: #d9d9d9;
+        border-radius: 50%;
 }
