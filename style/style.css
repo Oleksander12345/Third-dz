@@ -287,9 +287,9 @@ label {
     border-radius: 5px;
     clear: both;
 }
- #inp-1:checked ~.gender-container-dz6 label .gender-label-ins,
- #inp-2:checked ~.gender-container-dz6 label .gender-label-ins,
- #inp-3:checked ~.gender-container-dz6 label .gender-label-ins {
+ #inp-1:checked ~.gender-container-dz6 label .gender-label-ins1, .lab1,
+ #inp-2:checked ~.gender-container-dz6 label .gender-label-ins2, .lab2,
+ #inp-3:checked ~.gender-container-dz6 label .gender-label-ins3, .lab3 {
      background: #9b59b6;
      border-color: #d9d9d9;
      border-radius: 50%;
